@@ -1,0 +1,7 @@
+nome = input("Digite seu nome completo: ")
+print(f"O seu nome com todas as letras maiúsculas é: {nome.upper()}")
+print(f"O seu nome com todas as letras minúsculas é: {nome.lower()}")
+print(f"Tem {len(nome.strip()) - nome.count(' ')} letras sem os espaços.")
+divido = nome.split()
+print(f"Tem {len(divido[0])} letras o seu primeiro nome.")
+# print(f"Tem {nome.find(' ')} letras o seu primeiro nome.")
