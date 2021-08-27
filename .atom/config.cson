@@ -1,0 +1,19 @@
+"*":
+  core:
+    disabledPackages: [
+      "run-python-simply"
+      "atom-python-test"
+      "build-python"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    fontSize: 15
+    showIndentGuide: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "cfd39597-edba-4b14-8b86-4346594e3c2e"
+  "linter-ui-default": {}
